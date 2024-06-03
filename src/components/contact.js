@@ -44,7 +44,7 @@ export default function Contact() {
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                                 PHONE
                             </h2>
-                            <p className="text-green-400 leading-relaxed">(505) 750-1760</p>
+                            <p className="text-green-400 leading-relaxed">(513) 666-8565</p>
                         </div> 
                     </div>
                 </div>
@@ -58,7 +58,7 @@ export default function Contact() {
                             Hire Me
                         </h2>
                         <p className="leading-relaxed mb-5">
-                            A Software Developer with 5.5 years of experience and proficient in a wide range of technologies such as React, JavaScript, Java, Spring Boot, Node, Python, C# and .NET. 
+                            A Software Developer with 6 years of experience and proficient in a wide range of technologies such as React, Java, JavaScript, Spring Boot, Node, Python, C# and .NET. 
                         </p> 
                         <div className="relative mb-4">
                             <label html for="name" className="leading-7 text-sm text-gray-400">
