@@ -18,7 +18,7 @@ export default function Contact() {
         fetch("/", {
             method:"POST",
             headers:{"Content-Type": "application/x-www-form-urlencoded" },
-            body: encode({ "form-name": "contact", name, email, message}),
+            body: encode({ "form-name": name, email, message}),
         })
         .then(() => alert("Message sent!"))
         .catch((error) => alert(error));
@@ -44,7 +44,7 @@ export default function Contact() {
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                                 PHONE
                             </h2>
-                            <p className="text-green-400 leading-relaxed">(425) 588-8173</p>
+                            <p className="text-green-400 leading-relaxed">(505) 750-1760</p>
                         </div> 
                     </div>
                 </div>
@@ -58,8 +58,8 @@ export default function Contact() {
                             Hire Me
                         </h2>
                         <p className="leading-relaxed mb-5">
-                            A Software Developer with 6 years of experience and proficient in a wide range of technologies such as React, Java, JavaScript, Spring Boot, Node, Python, C# and .NET. 
                         </p> 
+                            A Software Developer with 6 years of experience and proficient in a wide range of technologies such as Angular, React, JavaScript, Java, HTML, CSS & Spring Boot. 
                         <div className="relative mb-4">
                             <label html for="name" className="leading-7 text-sm text-gray-400">
                                 Name
