@@ -32,10 +32,16 @@ export default function Contact() {
     return(
         <section id="contact" className="relative">
             <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-                <div className="lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-center justify-start relative"> && 
-                    <div className="bg-gray-900 absolute flex flex-wrap py-6 rounded shadow-md" style={{marginBottom: -340}}>
+                <div className="lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 max-md:my-20 max-md:mx-210px p-10 flex items-center justify-start md:relative"> 
+                    <div className="md:w-[500px] md:h-[250px] bg-gray-900 absolute flex flex-wrap py-6 rounded shadow-md">
                         <div className="lg:w-1/2 px-4 mt-4 lg:mt-0">
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                                NAME
+                            </h2>
+                            <p className="text-green-400 leading-relaxed">
+                                Bharath Chandra
+                            </p>
+                            <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                                 EMAIL
                             </h2>
                             <p className="text-green-400 leading-relaxed">

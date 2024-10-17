@@ -15,7 +15,7 @@ export default function Projects() {
                         I've worked on numerous apps ranging from interactive games, recipe search apps, Budget planner app, movie database, etc.
                     </p>
                 </div>
-                <div className="flex flex-wrap-m-4">
+                <div className="md:flex md:flex-wrap">
                     {projects.map((project, id) => (
                         <a
                             href="bharath-portfolio-job.netlify.app"
