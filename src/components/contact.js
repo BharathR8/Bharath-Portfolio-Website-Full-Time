@@ -65,7 +65,7 @@ export default function Contact() {
                         </h2>
                         <p className="leading-relaxed mb-5">
                         </p> 
-                            A Senior Software Developer with several years of experience and proficient in a wide range of technologies such as Angular, React, JavaScript, Java, HTML, CSS & Spring Boot. 
+                            A Senior Software Developer with several years of experience and proficient in a wide range of technologies such as React, Angular, JavaScript, TypeScript, Java, HTML & Spring Boot. 
                         <div className="relative mb-4">
                             <label html for="name" className="leading-7 text-sm text-gray-400">
                                 Name
