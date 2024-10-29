@@ -20,7 +20,7 @@ export default function Projects() {
                         <a
                             href="bharath-portfolio-job.netlify.app"
                             key={project.image}
-                            className="sm:w-1/2 w-100 p-4">
+                            className="sm:w-1/2 w-100 px-4 py-8">
                             <div className="flex relative">
                                 <img 
                                     alt="gallery"
@@ -29,13 +29,13 @@ export default function Projects() {
                                     style={(id === 0 || id === 1) ? {height: "120%"} : {height : "105%"}}
                                 />
                                 <div className="py-10 relative z-0 w-full border-gray-800 border-gray-900 opacity-0 hover:opacity-100">
-                                    <h2 className="tracking-widest text-lg title-font font-medium text-green-400 mb-1">
+                                    <h2 className={`tracking-widest text-lg title-font font-medium ${id === 2 ? 'text-black-600' : 'text-blue-400'} mb-1`}>
                                         {project.subtitle}
                                     </h2>
-                                    <h1 className="title-font text-lg font-medium text-red-200 mb-3">
+                                    <h1 className={"title-font text-lg font-medium text-black-200 mb-3"}>
                                         {project.title}                               
                                     </h1>
-                                    <p className={`leading-relaxed mb-3 ${id === 3 ? 'text-green-200' : 'text-black-200'}`}>{project.description}</p>
+                                    <p className="leading-relaxed mb-3 text-black-200">{project.description}</p>
                                 </div>
                             </div>
                         </a>

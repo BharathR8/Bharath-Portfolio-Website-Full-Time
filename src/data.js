@@ -21,10 +21,10 @@ export const projects = [
         title: "Movie Database",
         subtitle: "JavaScript and JQuery",
         description: "This was an app built for the user to search for movies from a global list of movie databases accessed using the IMDB api.",
-        image: "/images/movies.jpg"
+        image: "/images/movie-website.jpg"
     },
 ]
 
-export const skills = ["React", "Angular", "Java", "Spring Boot", "JavaScript", "MySQL", "HTML", "TypeScript", "Mongo DB", "Node"];
+export const skills = ["React", "Java", "Spring Boot", "Node", "Angular", "JavaScript", "MySQL", "HTML", "TypeScript", "Mongo DB", "Node", "Python", "CSS"];
 
 
