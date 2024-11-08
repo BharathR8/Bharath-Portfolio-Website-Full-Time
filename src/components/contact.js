@@ -33,24 +33,24 @@ export default function Contact() {
         <section id="contact" className="relative">
             <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap small-tablet:flex-wrap flex-wrap">
                 <div className="lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 max-md:my-20 max-md:mx-210px p-10 flex items-center justify-start md:relative mb-50"> 
-                    <div className="md:w-[500px] md:h-[250px] bg-gray-900 absolute flex flex-wrap py-6 my-10 rounded shadow-md large-mobile:w-400">
+                    <div className="md:w-[500px] md:h-[250px] bg-blue-500 absolute flex flex-wrap py-6 my-10 rounded shadow-md large-mobile:w-400">
                         <div className="lg:w-1/2 px-4 mt-4 lg:mt-0">
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                                 NAME
                             </h2>
-                            <p className="text-green-400 leading-relaxed">
+                            <p className="text-cyan-300 leading-relaxed">
                                 Bharath Chandra
                             </p>
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                                 EMAIL
                             </h2>
-                            <p className="text-green-400 leading-relaxed">
+                            <p className="text-cyan-300 leading-relaxed">
                                 bharathchandrarb@gmail.com
                             </p>
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                                 PHONE
                             </h2>
-                            <p className="text-green-400 leading-relaxed">(505) 750-1760</p>
+                            <p className="text-cyan-300 leading-relaxed">(505) 750-1760</p>
                         </div> 
                     </div>
                 </div>
@@ -74,7 +74,7 @@ export default function Contact() {
                                 type="text"
                                 id="name"
                                 name="name"
-                                className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" 
+                                className="w-full bg-gray-800 rounded border border-stone-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" 
                                 onChange={(e) => setName(e.target.value)}
                             />
                         </div>
@@ -86,7 +86,7 @@ export default function Contact() {
                                 type="email"
                                 id="email"
                                 name="email"
-                                className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" 
+                                className="w-full bg-gray-800 rounded border border-stone-600 focus:border-indigo-500 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" 
                                 onChange={(e) => setEmail(e.target.value)}
                             /> 
                         </div>
@@ -99,7 +99,7 @@ export default function Contact() {
                             <textarea
                                 id="message"
                                 name="message"
-                                className="w-full bg-gray-800 rounded border border-gray-700 focus:borderindigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" 
+                                className="w-full bg-gray-800 rounded border border-stone-600 focus:borderindigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" 
                                 onChange={(e) => setMessage(e.target.value)}
                             />
                         </div>
