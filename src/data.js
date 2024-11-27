@@ -25,6 +25,6 @@ export const projects = [
     },
 ]
 
-export const skills = ["React", "Java", "Spring Boot", "Node", "Angular", "JavaScript", "MySQL", "HTML", "TypeScript", "Mongo DB", "Python", "CSS"];
+export const skills = ["Angular", "Java", "Spring Boot", "Node", "React", "JavaScript", "MySQL", "HTML", "TypeScript", "Mongo DB", "Python", "CSS"];
 
 

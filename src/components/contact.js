@@ -45,7 +45,7 @@ export default function Contact() {
                                 EMAIL
                             </h2>
                             <p className="text-cyan-300 leading-relaxed">
-                                bharathchandrarb@gmail.com
+                                bharath.barakam@outlook.com
                             </p>
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                                 PHONE
